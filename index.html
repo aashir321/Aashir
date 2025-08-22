@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aashir Azeem</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css">
+    <link rel="stylesheet" href="./assets/css/swap.css">
+    <link rel="stylesheet" href="./assets/css/boostrap.min.css">
+    <link rel="stylesheet" href="./assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media_query.css">
+</head>
+
+<body>
+    <!-- ====================================== Preloader ===================================== -->
+    <div class="wrapper">
+        <div id="loader-wrapper">
+            <div id="loader">
+                <svg viewBox="0 0 1320 300">
+                    <text x="50%" y="50%" dy=".35em" text-anchor="middle">Aashir Azeem</text>
+                </svg>
+            </div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+    </div>
+    <!-- ====================================== Preloader End ===================================== -->
+    <!-- ====================================== Background Animation ===================================== -->
+    <div class="bubbles">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+    <!-- ====================================== Background Animation End ===================================== -->
+    <!-- ====================================== Cursor ===================================== -->
+    <div class="cursor"></div>
+    <!-- ====================================== Cursor End ===================================== -->
+    <!-- ====================================== Dark Light Mode ===================================== -->
+    <div class="dark_toggle">
+        <div class="ul-header">
+            <a class="mode" onclick="myFunction()" title="Toggle Mode">
+                <div class="icon-container">
+                    <i id="sunIcon" class="fa-solid fa-sun fa-spin icon"></i>
+                    <i id="moonIcon" class="fa-solid fa-moon icon hidden"></i>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- ====================================== Dark Light Mode End===================================== -->
+    <header>
+        <!-- ====================================== Fix Icon Menu ===================================== -->
+        <div class="sidebar close">
+            <ul class="nav-links icetab-container" id="icetab-container">
+                <li class="icetab current-tab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="./assets/images/home_icon.svg" alt="home_icon">
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li class=""><a class="link_name" href="javascript:void(0)">Home</a></li>
+                    </ul>
+                </li>
+                <li class="icetab menu-btn">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="./assets/images/about_icon.svg" alt="about_icon">
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="javascript:void(0)">About Me</a></li>
+                    </ul>
+                </li>
+                <li class="icetab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="./assets/images/resume_icon.svg" alt="resume_icon">
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="javascript:void(0)">Resume</a></li>
+                    </ul>
+                </li>
+                <li class="icetab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="./assets/images/services_icon.svg" alt="services_icon">
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="javascript:void(0)">Services</a></li>
+                    </ul>
+                </li>
+                <li class="icetab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="./assets/images/skills_icon.svg" alt="skills_icon">
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="javascript:void(0)">Skills</a></li>
+                    </ul>
+                </li>
+                <li class="icetab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="./assets/images/portfolio_icon.svg" alt="portfolio_icon">
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="javascript:void(0)">Portfolio</a></li>
+                    </ul>
+                </li>
+                <li class="icetab">
+                    <a class="" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="./assets/images/contact_icon.svg" alt="contact_icon">
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="javascript:void(0)">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- ====================================== Fix Icon Menu End ===================================== -->
+        <!-- ======================================= Side Menu ================================== -->
+        <div class="toggle" onclick="openNav()">
+            <img class="line-menu" src="./assets/images/line-menu.png" alt="line-menu">
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <div class="closebtn" onclick="closeNav()">&times;</div>
+            <ul class="sidescreen_sub icetab-container" id="icetab-container2">
+                <li class="icetab current-tab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="./assets/images/home_icon.svg" alt="home_icon">Home
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="./assets/images/about_icon.svg"
+                            alt="about_icon">About Me
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="./assets/images/resume_icon.svg"
+                            alt="resume_icon">Resume
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="./assets/images/services_icon.svg"
+                            alt="services_icon.svg">Services
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="./assets/images/skills_icon.svg"
+                            alt="skills_icon">Skills
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="./assets/images/portfolio_icon.svg"
+                            alt="portfolio_icon">Portfolio
+                    </a>
+                </li>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="./assets/images/contact_icon.svg"
+                            alt="contact_icon">Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- ======================================= Side Menu End ================================== -->
+    </header>
+    <div class="all_page" id="page">
+        <section class="card_section" id="card_main">
+            <div class="olivia_bio" id="oliva_details">
+                <div class="imgBox">
+                    <img class="olivia-img" src="./assets/images/Aashir Azeem.jpg" alt="Aashir-img">
+                </div>
+                <div class="bio_contain">
+                    <h1 class="olivia_moswa">Aashir Azeem</h1>
+                    <h2 class="designer font_w_font_s1 overflow-hidden"></h2>
+                   <a href="https://wa.me/qr/DYBEI3Y57VFKO1">
+                    <button class="download_cv hire_me font_w_font_s">
+                        <i class="ri-at-line"></i>Hire Me
+                    </button></a> 
+                </div>
+            </div>
+            <div class="right_card_main icetab-content" id="icetab-content">
+                <!-- ======================================= Home Section ================================== -->
+                <section class="oliva-intro tabcontent tab-active" id="home">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">intro</h2>
+                    </div>
+                    <h2 class="moswa font_w_font_s fade_up">Hi, I'm Aashir Azeem — a passionate software engineering student</h2>
+                    <h3 class="passionate font_w_font_s1 fade_up">
+I specialize in building robust, scalable, and user-friendly web applications. My core skills include HTML, CSS, JavaScript, PHP, Laravel, C#, and SQL, 
+with a growing command over Python, which I'm currently exploring in depth. I'm also actively working on modern stacks like React, Flutter, and the MERN Stack.
+I have a solid foundation in networking and system administration, with practical experience from Cisco Packet Tracer labs and academic exposure in database systems.
+Additionally, I’ve worked professionally with Shopify, WordPress, and Wix, managing e-commerce platforms and delivering tailored client solutions.
+Whether it’s crafting intuitive frontends or managing complex backends, I’m focused on delivering clean, efficient, and effective solutions.
+                    </h3>
+                    <div class="button_circle_group">
+                        <div>
+                            <button class="download_cv font_w_font_s" onClick="window.open('./assets/pdf/Aashir_Azeem.pdf');">
+                                <i class="ri-download-cloud-2-line"></i>Take a Look at My CV
+                            </button>
+                        </div>
+                        <div class="circular_text_main ">
+                            <a href="javascript:void(0)" class="down_arrow_main position-relative">
+                                <img class="circular_text" src="./assets/images/circular_text.png" alt="circular_text">
+                                <img class="down_arrow" src="./assets/images/down_arrow.svg" alt="down_arrow">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <!-- ======================================= About Section ================================== -->
+                <section class="oliva-intro tabcontent" id="about">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">About Me</h2>
+                    </div>
+                    <h2 class="moswa font_w_font_s fade_up">Learning, Building, and Becoming Better Everyday</h2>
+                    <h3 class="passionate font_w_font_s1 fade_up">I'm Aashir Azeem, a Software Engineering student currently enrolled
+at Sindh Madressatul Islam University and pursuing a diploma in Software Engineering at Aptech.
+Over the last 5 semesters, I’ve worked on a variety of academic and technical projects ranging from front-end interfaces to database-driven applications. 
+My experience spans across networking, system administration, and full stack development.
+In addition to my studies, I have completed a 6-month job as a Shopify Store Manager, where I also worked on WordPress and 
+Wix websites for clients — managing e-commerce stores, handling content, and optimizing customer experience.
+At Aptech, I’ve developed multiple eProjects and worked on collaborative learning modules. From university assignments to 
+client projects, my goal has always been to build clean, functional, and purpose-driven digital solutions.
+I’m currently sharpening my skills in Laravel, React, MERN Stack, Flutter, and Python, while actively seeking opportunities 
+to apply them in real-world scenarios.</h3>
+                    <div class="about_counter fade_up">
+                        <div class="counter">
+                            <h3 class="counter2 count font_w_font_s" data-count="5">4+</h3>
+                            <h3 class="experince font_w_font_s1 ">YEARS OF EXPERIENCE OF CREATING ACADEMIC & CLIENT SIDE PROJECTS </h3>
+                        </div>
+                        <div class="counter">
+                            <h3 class="counter2 count font_w_font_s" data-count="160">10+</h3>
+                            <h3 class="experince">PROJECTS COMPLETED IN 4 YEARS</h3>
+                        </div>
+                        <div class="counter">
+                            <h3 class="counter2 count font_w_font_s" data-count="160">5</h3>
+                            <h3 class="experince">5 SEMESTERS OF CONSISTENT ACADEMIC LEARNING</h3>
+                        </div>
+                    </div>
+                </section>
+                <!-- ======================================= Resume Section ================================== -->
+                <section class="oliva-intro tabcontent" id="resume">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">Resume</h2>
+                    </div>
+                    <h2 class="moswa font_w_font_s fade_up">Education</h2>
+                    <h3 class="passionate font_w_font_s1 fade_up">I’m currently pursuing a Bachelor’s in Software Engineering from Sindh Madressatul Islam University, 
+where I’ve gained strong theoretical foundations in areas like database systems, computer networks, and system administration. 
+Alongside this, I’m enrolled in the Advance Diploma in Software Engineering at Aptech, which has provided me with hands-on 
+training in full stack development — covering HTML, CSS, JavaScript, PHP, MySQL, Laravel, and more.This combination of academic 
+learning and practical skills has helped me build real-world projects, collaborate with peers, and understand both the logic and 
+structure behind software development. Through these parallel paths, I’m continuously learning how to bridge academic concepts 
+with practical implementation.</h3>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">Bachelor of Science in Information Technology</h3>
+                            <h4 class="university font_w_font_s1">Sindh Madressatul Islam University / JANUARY 2023 – IN PROGRESS
+                            </h4>
+                            <h5 class="cursus font_w_font_s1">Building a solid foundation in programming, networking, and database 
+    systems through academic projects, theory, and hands-on labs.</h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">Advance Diploma in Software Engineering</h3>
+                            <h4 class="university font_w_font_s1">Aptech / OCTOBER 2022 – IN PROGRESS </h4>
+                            <h5 class="cursus font_w_font_s1">Hands-on experience with modern web technologies, 
+                            focusing on both front-end and back-end development. Gained expertise through project-based learning and
+                            collaborative assignments.</h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">Intermediate in Pre-Engineering</h3>
+                            <h4 class="university font_w_font_s1"> Jinnah Government College Nazimabad, Karachi/ 2021 – 2022 </h4>
+                            <h5 class="cursus font_w_font_s1">Studied core science subjects including Mathematics, Physics, and Chemistry. 
+                        Developed analytical thinking and problem-solving mindset that supports my technical learning today.</h5>
+                        </div>
+                          <div class="education position-relative">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">Matric</h3>
+                            <h4 class="university font_w_font_s1"> Tayyab Ali A.Alavi Boys Secondary School, Karachi/ 2019 – 2020 </h4>
+                            <h5 class="cursus font_w_font_s1">Completed foundational education with a focus on Science and Computer. Built early interest in technology and programming.</h5>
+                        </div>
+                    </div>
+                    </div>
+                    <h2 class="moswa experience_main_text font_w_font_s fade_up">Experience</h2>
+                    <h3 class="passionate font_w_font_s1 fade_up">My experience includes freelance development, eCommerce store    
+management, and academic projects focused on web and system development — blending practical skills with real-world execution.</h3>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <div class="envato_group_main">
+                                <div>
+                                    <h3 class="bachelor font_w_font_s1"> Shopify Store Manager</h3>
+                                    <h4 class="company font_w_font_s1">Cosmeticholic — Jan 2023 – Jul 2023</h4>
+                                </div>
+                            </div>
+                            <h5 class="cursus font_w_font_s1">Managed a live Shopify store including product listings, 
+pricing updates, and inventory. Handled customer support, marketing strategies, and optimized store performance for better engagement and sales.</h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <div class="envato_group_main">
+                                <div>
+                                    <h3 class="bachelor font_w_font_s1">Academic Projects & Practical Training</h3>
+                                    <h4 class="company font_w_font_s1">Aptech & SMIU — 2022 – Present</h4>
+                                </div>
+                            </div>
+                            <h5 class="cursus font_w_font_s1">Completed multiple academic projects covering front-end, back-end, and database development using HTML, CSS, JavaScript, PHP, Laravel, C#, and SQL. Worked on DBMS, 
+networking, and system administration labs using Cisco Packet Tracer and built real-time eProjects during diploma coursework.</h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <div class="envato_group_main">
+                                <div>
+                                    <h3 class="bachelor font_w_font_s1">Freelance Web Developer</h3>
+                                    <h4 class="company font_w_font_s1">Self-Employed — 2022 – Present</h4>
+                                </div>
+                            </div>
+                            <h5 class="cursus font_w_font_s1">Designed and developed responsive 
+websites using WordPress and Wix. Delivered tailored web solutions for small clients, including design customization, content setup, and hosting/domain configuration.</h5>
+                        </div>
+                    </div>
+                </section>
+                <!-- ======================================= Services Section ================================== -->
+                <section class="oliva-intro tabcontent" id="services">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">My Services</h2>
+                    </div>
+                    <h2 class="moswa font_w_font_s fade_up">Turning Skills into Real-World Solutions</h2>
+                    <h3 class="passionate font_w_font_s1 fade_up">From full-stack web development to CMS customizations 
+and Shopify store management — I offer technical solutions that are clean, scalable, and tailored to your needs.</h3>
+                    <div class="services_box_main">
+                        <div class="service_box fade_up">
+                            <img class="services_icon" src="./assets/images/globe-480.webp" alt="web">
+                            <h3 class="ui_ux font_w_font_s">Web Development</h3>
+                            <h4 class="ui_sub_text font_w_font_s1">I build complete web applications from scratch using modern technologies. This includes everything from 
+responsive front-end interfaces with HTML, CSS, JavaScript and Bootstrap to powerful back-end systems using PHP, Laravel (in progress), C#, and MySQL. Also working towards React and MERN stack integration.</h4>
+                        </div>
+                        <div class="service_box fade_up">
+                            <img class="services_icon" src="./assets/images/wordpress-logo-128.webp" alt="wordpress">
+                            <h3 class="ui_ux font_w_font_s">CMS Website Development (WordPress & Wix)</h3>
+                            <h4 class="ui_sub_text font_w_font_s1">I design and customize websites using WordPress and Wix for individuals, 
+startups, and small businesses. This includes layout design, plugin configuration, content setup, and basic SEO optimization.</h4>
+                        </div>
+                        <div class="service_box fade_up">
+                            <img class="services_icon" src="./assets/images/shopify-128.webp" alt="shopify">
+                            <h3 class="ui_ux font_w_font_s">Shopify Store Management</h3>
+                            <h4 class="ui_sub_text font_w_font_s1">I have hands-on professional experience managing a Shopify store — handling product listings,
+inventory, pricing, marketing strategies, and customer support to improve online store performance and conversions.</h4>
+                        </div>
+                        <div class="service_box fade_up">
+                            <img class="services_icon" src="./assets/images/Data-Database-Storage-128.webp" alt="database">
+                            <h3 class="ui_ux font_w_font_s">Database Design & Integration</h3>
+                            <h4 class="ui_sub_text font_w_font_s1">I design relational database schemas using 
+SQL and MySQL, and integrate them into web applications for real-time data handling, forms, and dashboards.</h4>
+                        </div>
+                         <div class="service_box fade_up">
+                            <img class="services_icon" src="./assets/images/Devices_connected_mobile_networking_server_connection_web_interface-128.webp" alt="networking">
+                            <h3 class="ui_ux font_w_font_s">Networking & System Administration</h3>
+                            <h4 class="ui_sub_text font_w_font_s1">Practical experience with computer networks, Cisco Packet 
+Tracer, and system-level configurations — ideal for IT support roles or web hosting/server-related tasks.</h4>
+                        </div>
+                         <div class="service_box fade_up">
+                            <img class="services_icon" src="./assets/images/E_learning-128.webp" alt="learning">
+                            <h3 class="ui_ux font_w_font_s">Learning-Based Development (React, Flutter, MERN, Python)</h3>
+                            <h4 class="ui_sub_text font_w_font_s1">Actively learning modern technologies including React, Flutter, Node.js, and Python to expand my development stack. 
+Exploring full stack JavaScript for web apps and Python for scripting, automation, and future backend integrations.</h4>
+                        </div>
+                    </div>
+                </section>
+                <!-- ======================================= Skills Section ================================== -->
+                <section class="oliva-intro tabcontent" id="skill">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">my skills</h2>
+                    </div>
+                    <h2 class="moswa font_w_font_s fade_up">Building & Growing with Code — One Skill at a Time</h2>
+                    <h3 class="passionate font_w_font_s1 ">Over the past few years, I’ve been learning and applying 
+a wide range of development skills — from front-end design to back-end logic and database management. Whether it's crafting clean UI or writing optimized queries, I'm constantly upgrading my stack with real-world projects and self-learning.</h3>
+                    <h3 class="lan_skill hard_skill font_w_font_s fade_up">Skills</h3>
+                    <div class="skill_circle_main">
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="./assets/images/html.png" alt="html">
+                                <h4 class="hard_skill_counter font_w_font_s1">94%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">HTML</h4>
+                        </div>
+                         <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="./assets/images/css.png" alt="css">
+                                <h4 class="hard_skill_counter font_w_font_s1">88%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">CSS</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="./assets/images/bootstrap.png" alt="bootstrap">
+                                <h4 class="hard_skill_counter font_w_font_s1">90%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Bootstrap</h4>
+                        </div>                  
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="./assets/images/javascript.png" alt="javascript">
+                                <h4 class="hard_skill_counter font_w_font_s1">75%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">JavaScript</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="./assets/images/php.png" alt="php">
+                                <h4 class="hard_skill_counter font_w_font_s1">72%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">PHP</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="./assets/images/database.png" alt="database">
+                                <h4 class="hard_skill_counter font_w_font_s1">85%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">MYSQL/SQL</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="./assets/images/icons8-laravel-40.png" alt="laravel">
+                                <h4 class="hard_skill_counter font_w_font_s1">65%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">LARAVEL</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="./assets/images/icons8-c-40.png" alt="c#">
+                                <h4 class="hard_skill_counter font_w_font_s1">70%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">C#</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="./assets/images/python.png" alt="python">
+                                <h4 class="hard_skill_counter font_w_font_s1">60%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">PYTHON</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="./assets/images/molecule.png" alt="react">
+                                <h4 class="hard_skill_counter font_w_font_s1">55%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">React</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="./assets/images/flutter.png" alt="flutter">
+                                <h4 class="hard_skill_counter font_w_font_s1">55%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Flutter</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="./assets/images/wordpress.png" alt="wordpress">
+                                <h4 class="hard_skill_counter font_w_font_s1">82%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">WordPress</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="./assets/images/icons8-wix-32.png" alt="wix">
+                                <h4 class="hard_skill_counter font_w_font_s1">80%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">WIX</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="./assets/images/icons8-shopify-40.png" alt="shopify">
+                                <h4 class="hard_skill_counter font_w_font_s1">88%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Shopify</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="./assets/images/icons8-networking-40.png" alt="networking">
+                                <h4 class="hard_skill_counter font_w_font_s1">80%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">Networking</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="./assets/images/icons8-system-administrator-40.png" alt="system_administration">
+                                <h4 class="hard_skill_counter font_w_font_s1">74%</h4>
+                            </div>
+                            <h4 class="subject font_w_font_s1">System & Network Administration</h4>
+                        </div>
+                    </div>
+                </section>
+                <!-- ======================================= Portfolio Section  ================================== -->
+                <section class="oliva-intro tabcontent" id="portfolio">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">portfolio</h2>
+                    </div>
+                    <h2 class="moswa font_w_font_s fade_up">Showcasing Real Work — Projects Built with Code and Purpose</h2>
+                    <h3 class="passionate font_w_font_s1 fade_up">Every project in this portfolio reflects a skill learned, a challenge solved, and a problem approached with logic and 
+creativity. From CMS-based websites to full-stack academic projects, this space captures my journey from learning to launching.</h3>
+                    <div class="content_main">
+                        <div class="content_main1">
+                            <div class="">
+                                <div class="content_portfolio pop-up-one">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="./assets/images/pocket_fm.png" alt="pocket_fm">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Ryana Calendars</h3>
+                                        <p class="content-text">Basic HTML,CSS Website</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name font_w_font_s">Ryana Calendars - A responsive web calendar that allows users to create, view, and delete events seamlessly. Designed with a clean UI for effective scheduling.</h4>
+                                <p class="project_name_sub font_w_font_s1">Built using HTML,CSS & Javascript</p>
+                            </div> 
+                             <div class="">
+                                <div class="content_portfolio pop-up-two">
+                                        <div class="content-overlay-two"></div>
+                                        <img class="content-image" src="./assets/images/Advocate.png" alt="Advocate">
+                                        <div class="content-details fadeIn-bottom">
+                                            <h3 class="content-title">Advocate</h3>
+                                            <p class="content-text">Laravel Web-application</p>
+                                        </div>
+                                    </div>
+                                <h4 class="project_name font_w_font_s">Advocate - Laravel-based system to manage client cases, appointments, and legal documents efficiently.</h4>
+                                <p class="project_name_sub font_w_font_s1">Built using Laravel Framework</p>
+                            </div>
+                              <div class="">
+                                <div class="content_portfolio pop-up-three">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="./assets/images/currensee.jpg" alt="currensee">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Currensee</h3>
+                                        <p class="content-text">Flutter Web App</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name font_w_font_s">Currenseee – Currency Converter</h4>
+                                <p class="project_name_sub font_w_font_s1">Built using Flutter</p>
+                            </div> 
+                            <div class="">
+                                <div class="content_portfolio pop-up-four">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="./assets/images/event_sphere.png" alt="event_sphere">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Event Sphere</h3>
+                                        <p class="content-text">MERN Stack Web-application</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name font_w_font_s">Event Sphere - A full-featured MERN stack event management platform where users can create, update, and explore events. Includes user authentication, dashboard for organizers, and a clean UI for smooth interactions.</h4>
+                                <p class="project_name_sub font_w_font_s1">Built using MERN Stack</p>
+                            </div>
+                        </div>
+                        <div class="content_main2">
+                            <div class="">
+                                <a href="#popup1">
+                                    <div class="content_portfolio">
+                                        <div class="content-overlay"></div>
+                                        <img class="content-image" src="./assets/images/multisite_network.jpg" alt="multisite_network">
+                                        <div class="content-details fadeIn-bottom">
+                                            <h3 class="content-title">Multi-Site Network</h3>
+                                            <p class="content-text">Simulated network with VLANs, routers, and inter-site communication</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <h4 class="project_name font_w_font_s">Multi-Site Network - Designed and simulated a complete enterprise-level network using Cisco Packet Tracer. 
+                                    The project connects multiple sites via routers, switches, servers, and VLANs to demonstrate efficient communication, segmentation, and IP management.</h4>
+                                <p class="project_name_sub font_w_font_s1">Built using Cisco Packet Tracer</p>
+                            </div>
+                            <div class="">
+                                <a href="#popup2">       
+                                <div class="content_portfolio">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="./assets/images/centralized_network_model.jpg" alt="centralized_network_model">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Centralized Network Model</h3>
+                                        <p class="content-text">Simulated domain with AD DS, OUs, GPOs and user management</p>
+                                    </div>
+                                </div>
+                                </a>
+                                <h4 class="project_name font_w_font_s">Centralized Network Model - Configured a Windows Server 2019 virtual environment using VirtualBox. 
+Set up Active Directory Domain Services (AD DS), created OUs, managed users and groups, 
+implemented Group Policies, and joined client machines to the domain for complete enterprise simulation.</h4>
+                                <p class="project_name_sub font_w_font_s1">Built using Windows Server & VirtualBox</p>
+                            </div>
+                            <div class="">
+                                <a href="#popup3">
+                                <div class="content_portfolio">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="./assets/images/Green_cart.jpg" alt="Green_cart">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Green Cart</h3>
+                                        <p class="content-text">Inventory and sales management system in MySQL</p>
+                                    </div>
+                                </div>
+                                </a>
+                                <h4 class="project_name font_w_font_s">Green Cart – A fully normalized MySQL database system for an e-commerce platform. Includes relational tables for products, categories, suppliers, customers, employees, inventory, and sales. Demonstrates advanced SQL queries, constraints, and data integrity.</h4>
+                                <p class="project_name_sub font_w_font_s1">Built using MySQL</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- ======================================= Portfolio Section End  ================================== -->
+                <!-- ======================================= Contact us Section  ================================== -->
+                <section class="oliva-intro tabcontent" id="contact">
+                    <div class="intro_main">
+                        <h2 class="intro fade_up">contact us</h2>
+                    </div>
+                    <h2 class="moswa fade_up">Let's Work Together!</h2>
+                    <form action="https://formspree.io/f/xgvzgywr" method="post">
+                    <div class="container1">
+                        <div class="form form__1">
+                            <label for="name" class="form__label">What’s Your Name*</label>
+                            <input type="text" class="form__input" placeholder="" id="name" name="name" required>
+                        </div>
+                        <div class="form form__2">
+                            <label for="email" class="form__label">Your Email*</label>
+                            <input type="email" class="form__input" placeholder="" id="email" name="email" required>
+                        </div>
+                        <div class="form form__1">
+                            <label for="name" class="form__label">Your Phone Number*</label>
+                            <input type="text" class="form__input" placeholder="" id="phone" name="phone" required>
+                        </div>
+                        <div class="form form__1">
+                            <label for="name" class="form__label">Subject*</label>
+                            <input type="text" class="form__input" placeholder="" id="subject" name="subject" required>
+                        </div>
+                    </div>
+                    <div class="btn_message">
+                        <div class="form form__3">
+                            <label for="name" class="form__label">Tell us about your project*</label>
+                            <input type="text" class="form__input message2" placeholder="" id="project" name="message" required>
+                        </div>
+                        <div class="send_message_form">
+                            <button type="submit" class="download_cv form__btn">
+                                <i class="fa-regular fa-paper-plane material-icons"></i>Send Message
+                            </button>
+                        </div>
+                    </form>
+                    </div>
+                    <div>
+                        <h3 class="moswa touch">Get in touch!</h3>
+                        <div class="contact_number_main">
+                            <img src="./assets/images/contact.svg" alt="contact">
+                            <h4 class="contact_number"><a href="tel:+12345678899">+92 3257227099</a></h4>
+                        </div>
+                        <div class="contact_number_main">
+                            <img src="./assets/images/gmail.svg" alt="gmail">
+                            <h4 class="contact_number"><a href="mailto:aashirazeem908@gmail.com">aashirazeem908@gmail.com</a></h4>
+                        </div>
+                    </div>
+                    <h5 class="copyright">©Aashir 2024. All rights reserved.</h5>
+                </section>
+                <!-- ======================================= Contact us Section End ================================== -->
+            </div>
+        </section>
+        <!-- ======================================= Social Media Right Side  ================================== -->
+        <div class="social_media_main" id="social_media_main">
+            <ul class="social_media">
+                <li><a href="https://www.facebook.com/aashir.bhatti.927/" target="blank">FB</a></li>
+                <li><a href="https://www.linkedin.com/in/aashir-azeem-0ba27b380?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank">LI</a></li>
+                <li><a href="https://www.instagram.com/aashir._.azeem?igsh=bHpmdjRyemw0NGVj" target="blank">IG</a></li>
+                <li><a href="https://github.com/aashir321" target="blank">GH</a></li>
+            </ul>
+        </div>
+        <!-- ======================================= Social Media Right Side End ================================== -->
+        <!-- ======================================= Portfolio PopUp Window  ================================== -->
+        <div class="overlay">
+            <div class="content2">
+                <div id="close">
+                    <i class="ri-close-fill"></i>
+                </div>
+                <img class="proj_main_image" src="./assets/images/pocket_fm.png" alt="portfolio_big_img">
+                <div class="corporate_main">
+                    <div class="corporate_sub">
+                        <h3 class="project_name corp font_w_font_s">Rayana Calendars</h3>
+                        <p class="project_name_sub font_w_font_s1">About Project</p>
+                    </div>
+                    <p class="blandit_text font_w_font_s1">
+                    Ryana Calendars is a responsive web-based calendar designed to simplify event scheduling and management. 
+With its clean and user-friendly interface, users can effortlessly create, view, and delete events without distractions.
+The project focuses on delivering a smooth experience across all devices, ensuring that users can keep track of their tasks 
+and schedules anywhere, anytime.
+                </p>
+                </div>
+                <div class="project_second">
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/R1.png" alt="project_sub_images1">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/R2.png" alt="project_sub_images2">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/R3.png" alt="project_sub_images1">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/R4.png" alt="project_sub_images1">
+                    </div>
+                </div>
+                <p class="blandit_text">Built using HTML, CSS, and JavaScript, Ryana Calendars showcases the power of front-end 
+development in creating practical solutions for everyday needs. Its lightweight structure makes it fast and efficient, 
+while the interactive features provide flexibility for both personal and professional use.
+This project highlights the importance of intuitive design combined with functional code to achieve a seamless scheduling tool.
+                </p>
+                <div class="pop-up-footer">
+                    <button class="download_cv view_project font_w_font_s" onClick="window.open('https://aashir321.github.io/ryana_calenders/');">
+                        <i class="ri-eye-line"></i> View Project
+                    </button>
+                    <div class="share-button share">
+                        <i class="ri-share-line share-btn"></i>
+                        <div class="social top center networks-5 ">
+                            <a class="fbtn facebook" href="https://www.facebook.com" target="_blank">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a class="fbtn instagram" href="https://www.instagram.com" target="_blank">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a class="fbtn whatsapp" href="https://wa.me/+12345678899" target="_blank">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                            <a class="fbtn linkedin" href="https://www.linkedin.com" target="_blank">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="overlay-two">
+            <div class="content2">
+                <div id="closee">
+                    <i class="ri-close-fill"></i>
+                </div>
+                <img class="proj_main_image" src="./assets/images/Advocate.png" alt="portfolio_big_img">
+                <div class="corporate_main">
+                    <div class="corporate_sub">
+                        <h3 class="project_name corp font_w_font_s">Advocate</h3>
+                        <p class="project_name_sub font_w_font_s1">About Project</p>
+                    </div>
+                    <p class="blandit_text font_w_font_s1">The Advocate Management System is a web-based solution designed to 
+efficiently handle clients, cases, and appointments. It provides a centralized platform for advocates and their assistants to 
+track case histories, client details, and hearing schedules with ease. With its clean and user-friendly interface, the system 
+ensures smooth workflow management without unnecessary complexity.</p>
+                </div>
+                <div class="project_second">
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/A2.png" alt="project_sub_images1">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/A3.png" alt="project_sub_images2">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/A4.png" alt="project_sub_images1">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/A5.png" alt="project_sub_images1">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/A6.png" alt="project_sub_images1">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/A7.png" alt="project_sub_images2">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/A8.png" alt="project_sub_images1">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/A9.png" alt="project_sub_images1">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/A10.png" alt="project_sub_images1">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/A11.png" alt="project_sub_images1">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/A12.png" alt="project_sub_images1">
+                    </div>
+                </div>
+                <p class="blandit_text">Built using <b>Laravel</b> ,This project leverages database connectivity to securely store and retrieve case-related
+information, reducing the need for manual record keeping. By improving accuracy and saving time, it enhances overall productivity
+for legal professionals. The Advocate Management System is also designed with scalability in mind, making it flexible enough to 
+integrate future features like document uploads, automated reminders, and billing modules.</p>
+                <div class="pop-up-footer">
+                    <button class="download_cv view_project font_w_font_s" onClick="window.open('https://github.com/aashir321/Advocate');">
+                        <i class="ri-eye-line"></i> View Project
+                    </button>
+                    <div class="share-button share">
+                        <i class="ri-share-line share-btn"></i>
+                        <div class="social top center networks-5 ">
+                            <a class="fbtn facebook" href="https://www.facebook.com" target="_blank">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a class="fbtn instagram" href="https://www.instagram.com" target="_blank">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a class="fbtn whatsapp" href="https://wa.me/+12345678899" target="_blank">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                            <a class="fbtn linkedin" href="https://www.linkedin.com" target="_blank">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="overlay-three">
+            <div class="content2">
+                <div id="closeee">
+                    <i class="ri-close-fill"></i>
+                </div>
+                <img class="proj_main_image" src="./assets/images/currensee.jpg" alt="portfolio_big_img">
+                <div class="corporate_main">
+                    <div class="corporate_sub">
+                        <h3 class="project_name corp font_w_font_s">Currensee</h3>
+                        <p class="project_name_sub font_w_font_s1">About Project</p>
+                    </div>
+                    <p class="blandit_text font_w_font_s1">Currensee is a cross-platform mobile application designed to 
+provide quick and accurate currency conversion in real time. With its clean and minimal interface, users can easily convert 
+between multiple international currencies on the go. The app focuses on delivering both speed and accuracy, ensuring a smooth 
+experience for travelers, professionals, and students alike.  </p>
+                </div>
+                <div class="project_second">
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/B1.png" alt="project_sub_images1">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/B2.png" alt="project_sub_images2">
+                    </div>
+                </div>
+                <p class="blandit_text">Built using <b>Flutter and Dart</b>, Currensee leverages powerful APIs to fetch 
+live exchange rates and display them instantly. Its responsive design ensures compatibility across Android and iOS devices, 
+while the lightweight structure makes it fast and efficient. This project demonstrates how Flutter can be used to build reliable,
+practical, and user-friendly financial tools for everyday needs.</p>
+                <div class="pop-up-footer">
+                    <button class="download_cv view_project font_w_font_s" onClick="window.open('https://github.com/aashir321/currenseee');">
+                        <i class="ri-eye-line"></i> View Project
+                    </button>
+                    <div class="share-button share">
+                        <i class="ri-share-line share-btn"></i>
+                        <div class="social top center networks-5 ">
+                            <a class="fbtn facebook" href="https://www.facebook.com" target="_blank">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a class="fbtn instagram" href="https://www.instagram.com" target="_blank">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a class="fbtn whatsapp" href="https://wa.me/+12345678899" target="_blank">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                            <a class="fbtn linkedin" href="https://www.linkedin.com" target="_blank">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay-four">
+            <div class="content2">
+                <div id="closeeee">
+                    <i class="ri-close-fill"></i>
+                </div>
+                <img class="proj_main_image" src="./assets/images/event_sphere.png" alt="portfolio_big_img">
+                <div class="corporate_main">
+                    <div class="corporate_sub">
+                        <h3 class="project_name corp font_w_font_s">Event Sphere</h3>
+                        <p class="project_name_sub font_w_font_s1">About Project</p>
+                    </div>
+                    <p class="blandit_text font_w_font_s1">Event Sphere is a full-stack web application designed to simplify
+event planning and management. The platform enables users to create, browse, and register for events with ease, offering an 
+intuitive interface that makes organizing gatherings more efficient. Its goal is to bring organizers and attendees together 
+on one seamless platform for smooth event coordination.</p>
+                </div>
+                <div class="project_second">
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/M1.png"alt="project_sub_images1">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/M2.png" alt="project_sub_images2">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/M3.png" alt="project_sub_images1">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/M5.png" alt="project_sub_images1">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/M6.png" alt="project_sub_images1">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/M7.png" alt="project_sub_images1">
+                    </div>
+                    <div>
+                        <img class="project_sub_images" src="./assets/images/M8.png" alt="project_sub_images1">
+                    </div>
+                </div>
+                <p class="blandit_text">Developed using the <b>MERN stack (MongoDB, Express.js, React, and Node.js)</b>, 
+Event Sphere provides a powerful backend for data handling and a dynamic frontend for interactive user experiences. 
+With features like event creation, user authentication, and real-time updates, the project demonstrates the strength of modern 
+full-stack development. Event Sphere highlights how MERN technologies can be combined to build scalable, responsive, and 
+user-friendly web applications.</p>
+                <div class="pop-up-footer">
+                    <button class="download_cv view_project font_w_font_s" onClick="window.open('https://github.com/aashir321/eventsphere');">
+                        <i class="ri-eye-line"></i> View Project
+                    </button>
+                    <div class="share-button share">
+                        <i class="ri-share-line share-btn"></i>
+                        <div class="social top center networks-5 ">
+                            <a class="fbtn facebook" href="https://www.facebook.com" target="_blank">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a class="fbtn instagram" href="https://www.instagram.com" target="_blank">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a class="fbtn whatsapp" href="https://wa.me/+12345678899" target="_blank">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                            <a class="fbtn linkedin" href="https://www.linkedin.com" target="_blank">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ======================================= Portfolio PopUp Window End ================================== -->
+    <!-- ======================================= Portfolio gallery ================================== -->
+    <div id="popup1" class="overlay_gallery">
+        <div class="popup_gallery">
+            <h2 class="city_gallery">Multi-Site Network Project</h2>
+            <a class="close" href="#">&times;</a>
+                     <p class="blandit_text font_w_font_s1">
+                        This Cisco Packet Tracer project demonstrates a multi-site network topology consisting of three 
+interconnected sites. Each site is managed through routers and multilayer switches to ensure seamless communication across 
+different subnets. The topology includes DNS, DHCP, and HTTP servers that provide essential services like automatic 
+IP allocation, domain resolution, and web hosting to connected devices, ensuring a realistic enterprise-level simulation.
+                </p>
+            <div id="cbwrap">
+                <div class="gallery">
+                    <img src="./assets/images/C1.png" alt="gallery_img1">
+                    <img src="./assets/images/C2.png" alt="gallery_img1">
+                    <img src="./assets/images/C3.png" alt="gallery_img1">
+                    <img src="./assets/images/C4.png" alt="gallery_img1">
+                    <img src="./assets/images/C5.png" alt="gallery_img1">
+                    <img src="./assets/images/C6.png" alt="gallery_img1">
+                    <img src="./assets/images/C7.png" alt="gallery_img1">
+                </div>
+                 <p class="blandit_text">The project highlights concepts such as inter-VLAN routing, server configuration, 
+and WAN connectivity between sites. By simulating real-world scenarios like centralized services and distributed client systems,
+the design provides a strong foundation in networking practices. This setup showcases how routers, switches, and servers 
+interact to form a scalable and efficient communication network suitable for business or institutional use.</p>
+            </div>
+        </div>
+    </div>
+     <div id="popup2" class="overlay_gallery">
+        <div class="popup_gallery">
+            <h2 class="city_gallery">Centralized Network Model Project</h2>
+            <a class="close" href="#">&times;</a>
+            <p class="blandit_text font_w_font_s1">The Domain Controller project is designed to simulate an enterprise-level 
+IT infrastructure using Windows Server. By configuring a centralized domain, the system provides authentication, authorization, 
+and secure access management for all connected client machines. Active Directory services were implemented to manage users, 
+groups, and organizational units efficiently, ensuring structured and secure resource allocation.</p>
+            <div id="cbwrap">
+                <div class="gallery">
+                    <img src="./assets/images/D1.png" alt="gallery_img1">
+                    <img src="./assets/images/D2.png" alt="gallery_img2">
+                    <img src="./assets/images/D3.png" alt="gallery_img3">
+                    <img src="./assets/images/D4.png" alt="gallery_img4">
+                    <img src="./assets/images/D5.png" alt="gallery_img5">
+                    <img src="./assets/images/D6.png" alt="gallery_img1">
+                    <img src="./assets/images/D7.png" alt="gallery_img4">
+                    <img src="./assets/images/D8.png" alt="gallery_img2">
+                </div>
+                <p class="blandit_text font_w_font_s1"> This setup highlights the importance of centralized network administration
+within corporate environments. Features like Group Policy, file sharing, and user account management were integrated to 
+demonstrate real-world scenarios of organizational IT operations. The project showcases how domain controllers streamline 
+security and resource management, making it an essential solution for businesses that require scalable and reliable network 
+systems.</p>
+            </div>
+        </div>
+    </div>
+    <div id="popup3" class="overlay_gallery">
+        <div class="popup_gallery">
+            <h2 class="city_gallery">Green Cart</h2>
+            <a class="close" href="#">&times;</a>
+            <p class="blandit_text font_w_font_s1">The Green Cart project is a database-driven application designed 
+to manage core operations of an online grocery system. Built on MySQL, it includes well-structured tables for products, 
+categories, suppliers, customers, employees, sales, and inventory. The system ensures data integrity through relational 
+database concepts and enforces constraints to maintain accuracy in product availability, customer details, and transactional 
+records.</p>
+            <div id="cbwrap">
+                <div class="gallery">
+                    <img src="./assets/images/G1.png" alt="gallery_img1">
+                    <img src="./assets/images/G2.png" alt="gallery_img2">
+                    <img src="./assets/images/G3.png" alt="gallery_img3">
+                    <img src="./assets/images/G4.png" alt="gallery_img4">
+                    <img src="./assets/images/G5.png" alt="gallery_img5">
+                    <img src="./assets/images/G6.png" alt="gallery_img1">
+                    <img src="./assets/images/G7.png" alt="gallery_img4">
+                    <img src="./assets/images/G8.png" alt="gallery_img2">
+                    <img src="./assets/images/G9.png" alt="gallery_img2">
+                    <img src="./assets/images/G10.png" alt="gallery_img2">
+                    <img src="./assets/images/G11.png" alt="gallery_img2">
+                    <img src="./assets/images/G.png" alt="gallery_img2">
+                </div>
+                <p class="blandit_text font_w_font_s1">This project highlights the practical implementation of database 
+management principles including normalization, primary/foreign keys, joins, and queries for CRUD operations. It demonstrates 
+how relational databases can power real-world e-commerce platforms by enabling efficient inventory tracking, supplier management,
+and customer transactions. Green Cart stands as a strong example of applying SQL concepts to solve everyday business challenges.</p>
+            </div>
+        </div>
+    </div>
+    <!-- ======================================= Portfolio gallery End ================================== -->
+    <script src="./assets/javascript/jquery.min.js"></script>
+    <script src="./assets/javascript/magnific-popup.min.js"></script>
+    <script src="./assets/javascript/progresscircle.js"></script>
+    <script src="./assets/javascript/cursor.js"></script>
+    <script src="./assets/javascript/bootstrap.bundle.min.js"></script>
+    <script src="./assets/javascript/slick.min.js"></script>
+    <script src="./assets/javascript/script.js"></script>
+</body>
+</html>
